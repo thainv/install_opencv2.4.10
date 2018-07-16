@@ -58,7 +58,7 @@ echo " Current OpenCV Installation: $JETSON_OPENCV"
 echo " OpenCV binaries will be installed in: $CMAKE_INSTALL_PREFIX"
 echo " OpenCV Source will be installed in: $OPENCV_SOURCE_DIR"
 
-if [ $DOWNLOAD_OPENCV_EXTRAS == "YES" ] ; then
+if [ $DOWNLOAD_OPENCV_EXTRAS = "YES" ] ; then
  echo "Also installing opencv_extras"
 fi
 
