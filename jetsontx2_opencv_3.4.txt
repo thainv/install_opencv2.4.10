@@ -39,6 +39,11 @@ $ sudo vim /usr/local/lib/python3.5/dist-packages/matplotlib/mpl-data/matplotlib
 ### version of numpy than the apt-get package
 $ sudo apt-get install python-dev python-pip python-tk
 $ sudo pip2 install numpy
+
+$ ls /usr/local/lib/python3.5/dist-packages/cv2.*
+/usr/local/lib/python3.5/dist-packages/cv2.cpython-35m-aarch64-linux-gnu.so
+$ ls /usr/local/lib/python2.7/dist-packages/cv2.*
+/use/local/lib/python2.7/dist-packages/cv2.so
 $ sudo pip2 install matplotlib
 ### Modify matplotlibrc (line #41) as 'backend      : TkAgg'
 $ sudo vim /usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/matplotlibrc
