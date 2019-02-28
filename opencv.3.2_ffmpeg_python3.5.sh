@@ -78,7 +78,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
       -D WITH_OPENGL=ON \
       -D BUILD_TIFF=ON \
       -D OPENCV_EXTRA_MODULES_PATH= /home/asilla/setup/opencv_contrib-3.2.0/modules \
-      -D WITH_FFMPEG=ON ..
+      -D WITH_FFMPEG=ON -D BUILD_opencv_cudalegacy=OFF ..
 
 make -j4
 sudo make install
